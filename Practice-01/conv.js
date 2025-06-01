@@ -6,3 +6,5 @@ console.log(valueNumber);
 console.log(typeof(valueNumber));
 
 // this is how conversion is done in js
+console.log(undefined==0);
+
