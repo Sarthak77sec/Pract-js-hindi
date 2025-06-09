@@ -1,8 +1,11 @@
 #!/bin/bash
 git status
+echo "enter file name:"
+read file
+git add $file
 
-git add objects.js
-
-git commit -m "some updattion"
+echo "enter commit message"
+read msg
+git commit -m "$msg"
 
 git push origin main
